@@ -8,3 +8,5 @@ Distance and time is calculated via Google's Distance API. Fuel cost is calculat
 For the time being, you can see the demo at my Github hosted account URL: http://sudominnix.github.com
 
 This is a work-in-process intended as an exercise in learning Javascript, screen scraping and basic API function. I may add other features in the future as well as refine some of the code, depending on what I come up with. Perhaps you might have use for this as a rough basis for a similar application or maybe you just need a few pieces of code (such as the XML parsing or Google Distance API connection) for something else.
+
+Of note - The destination drop down lists several arrays that feed into a single code block that calculates and returns the table of results. There is no hard coding of the destinations; therefore, one can much more easily modify the functions or add/change/delete destinations.
